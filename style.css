@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 300px;
+  background-color: #172b4d;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+h1 {
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 56px;
+  text-shadow: black 3px 3px 3px;
+  padding-top: 25px;
+  text-align: center;
+  width: 100%;
+}
+nav {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  margin: 25px;
+  color: white;
+  text-decoration: none;
+}
+.miniimage {
+  height: 35px;
+  width: 35px;
+  margin: 5px auto;
+}
+.imagemoyen {
+  height: 105px;
+  width: 105px;
+}
+.imagemoyenraquettes {
+  width: 140px;
+}
+.imagemoyenraquettes img {
+  height: 140px;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.miniimage img {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.imagemoyen img {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.imagemoyenraquettes img {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.colonne1 {
+  display: flex;
+  width: 135px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.colonne1 .imagemoyen {
+  margin: 0 auto;
+}
+.colonne2 {
+  display: flex;
+  width: 170px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.colonne2 .imagemoyenraquettes {
+  margin: 0 auto;
+}
+.colonne3 {
+  display: flex;
+  width: 135px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.colonne3 .imagemoyen {
+  margin: 0 auto;
+}
+figcaption {
+  width: max-content;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0 auto 5px auto;
+  color: #ffffff;
+  text-shadow: black 2px 2px 2px;
+}
+.sport {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  /*background-color: red;*/
+  margin-left: 10px;
+}
+.sport-inverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 20px 0px;
+  margin-right: 10px;
+}
+#ballons {
+  background-color: #0066ff;
+  padding-bottom: 1px;
+}
+#raquettes {
+  background-color: #ff7a00;
+  padding-bottom: 1px;
+}
+#endurance {
+  background-color: #ff1744;
+  padding-bottom: 1px;
+}
+main img {
+  height: 350px;
+  width: fit-content;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.texte-sport {
+  text-align: center;
+  /*background-color: red;*/
+  width: 50%;
+  margin: 0 auto;
+}
+main p {
+  margin-left: 10%;
+  font-size: 18px;
+  color: #222222;
+}
+main h3 {
+  font-size: 24px;
+}
+main h2 {
+  font-size: 30px;
+}
+#ballons h2 {
+  margin-left: 12%;
+  padding-top: 1%;
+}
+#raquettes h2 {
+  text-align: end;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  padding-top: 1%;
+}
+#endurance h2 {
+  text-align: end;
+  margin-right: 10%;
+  margin-bottom: 10px;
+  padding-top: 1%;
+}
+main p {
+  text-indent: 25px;
+}
+footer {
+  height: 585px;
+  background-color: #172b4d;
+}
+footer h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  text-shadow: black 2px 2px 2px;
+  text-align: center;
+  padding-top: 15px;
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #ffffff;
+  text-shadow: black 2px 2px 2px;
+  text-align: center;
+  padding: 5px 0px;
+}
+a {
+  color: #ffffff;
+}
+footer ul {
+  width: fit-content;
+  margin: 0 auto;
+}
+#RetourenHaut {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  background-color: #172b4d;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px solid black;
+}
